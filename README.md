@@ -28,7 +28,7 @@ and compatible nodes such as
 ### `BBoxesStringToSAM2`
 Convert bounding boxes strings to SAM2 format,this node allows you to use external LLM API (e.g.[`comfyui_LLM_party`](https://github.com/heshengtao/comfyui_LLM_party)) to detect the object.
 
-**The external LLM should have the ability to detect objects and return bounding boxes as required,for the response format and prompt,please reference `External_LLM_example.json` **
+**The external LLM should have the ability to detect objects and return bounding boxes as required,for the response format and prompt,please reference `External_LLM_example.json`**
 
 ## Usage
 1. Place this repository inside your `ComfyUI/custom_nodes` directory.
